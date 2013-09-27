@@ -1,4 +1,6 @@
 DemoApp::Application.routes.draw do
+  resources :high_scores
+
   resources :microposts
 
   resources :users
